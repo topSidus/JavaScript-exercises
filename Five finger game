@@ -1,0 +1,55 @@
+
+
+<html>
+
+    <head>
+    
+        <title>Javascript</title>
+    
+    </head>
+    
+    <body>
+        
+        <p>How many fingers am I holding up?</p>
+        
+        <input id="text" type="text">
+        
+        <p><button id="button">Check Sum</button></p>
+        
+        
+        <script type="text/javascript">
+            
+            
+            document.getElementById("button").onclick = function () {
+            
+            var textEntered = document.getElementById("text").value;
+            
+            /** Usiamo Math.floor per ottenere numero intero e non a virgola flottante. Perché si annidino così ancora non lo so **/ 
+            /** We're using Math.floor to obtain an integer and not a floating one. I still have not understood the logic behind it's 
+            order and syntax. Better concentrate on IF statement and other 
+                
+            var numeroRandom = (Math.floor(Math.random() * 5)); 
+                
+                alert(numeroRandom);
+                
+            if (textEntered == numeroRandom) {
+                
+                alert('You have guessed it!')
+            } else {
+                
+             alert('You were wrong.')
+                
+            }
+                
+                
+
+            }
+            
+        
+            
+        </script>
+        
+    </body>
+
+
+</html>
