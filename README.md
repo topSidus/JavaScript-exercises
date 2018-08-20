@@ -6,3 +6,9 @@ I'm planning to run this on Linux in September, because of the larger amount of 
 Right now I'm just focusing on some good excercise in JavaScript, understand the basics and try to personalize and write my own pieces of code. 
 
 If you have some suggestion or question, please feel free to watch, fork and eventually collaborating in modified branches.
+
+
+The guessing game it's simple. It utilizes some method as getElementById, if you know it, and Math.random and Math.floor methods. 
+Then there is an <u>IF statement</u>, which basically tells the script to comparate the var numeroRandom with the text entered in the input tag. 
+
+Hope this is clear enough. 
